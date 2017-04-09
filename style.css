@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+	
+@font-face {font-family:Adine;
+			src:url(font/Adine.ttf);}
+			
+@font-face {font-family:Flow;
+		    src:
+			url("font/flow/flow.ttf") format("truetype"),
+			url("font/flow/flow.svg#Flow") format("svg");
+			}	
+	
+@font-face {font-family:"COTILLIO";
+		    src:url("font/COTILLIO/COTILLIO.eot?") format("eot"),
+			url("font/COTILLIO/COTILLIO.woff") format("woff"),
+			url("font/COTILLIO/COTILLIO.ttf") format("truetype"),
+			url("font/COTILLIO/COTILLIO.svg#COTILLIO") format("svg");
+			}
+	
+		  
+hr { width:80%;
+	color:#bbbbbb;
+	}
+	
+span {color:red;
+	  font-family:'Flow';
+	  font-size:16px;}
+
+pre { font-family:'Adine';
+	  font-size:42px;
+	  margin-top:-45px;
+	  color:#708090;
+	  }
+	  
+h1 { font-family:'Adine';
+	  font-size:65px;
+	   margin-top: 15px;
+	   color:#708090;}
+	   
+h2 { font-family:'Flow';
+	  font-size:26px;
+	  color:#708090;  
+	  }
+	  
+h3 { font-family:'Flow';
+	  font-size:18px;
+	  color:#708090;    
+	  }
+	
+p { font-family:'Flow';
+	  font-size:16px;
+	  color:#708090;  
+	  }
+
+
+#wrap { width:1200px;
+		/*height:1230px;*/		
+		border:solid 1px #CCCCCC;
+		border-radius:5px;
+		background:url(image/texture1.png) no-repeat center fixed;
+		background-size:cover;	
+		margin:0 auto;
+		}
+		
+		
+#header { width:1200px;
+			height:150px;
+			background:rgba(255, 255, 255, 0.3);
+			border:solid 1px #CCCCCC;
+			border-radius:5px;}
+/*---------------------------content------------------------------*/			
+#content { width:900px;
+			background:rgba(255, 255, 255, 0.3);
+			border:solid 1px #CCCCCC;
+			border-radius:5px;
+			margin:20px 0 20px 20px;
+			display:inline-block;
+			padding:10px;
+			}
+			
+#content img {margin:10px;}
+
+	
+.cont	  { width:690px;
+			background:rgba(255, 255, 255, 0.3);
+			border:solid 1px #CCCCCC;
+			border-radius:5px;
+			margin:20px 0 20px 250px;
+			display:inline-block;
+			padding-bottom:450px;
+			}
+	a { text-decoration:none;}
+	
+	#part { width:230px;
+	         background:rgba(255, 255, 255, 0.3);
+			 position:absolute;
+			 float:right;
+			 border:solid 1px #CCCCCC;
+			 border-radius:5px;
+			 display:inline-block;
+			 margin:20px 0px 20px 10px;
+			 }	
+			 
+.button { width:100px;
+		  height:30px;
+		  background:#3F9;}
+		  
+#rekviz { float:right;
+		  display:inline-block;
+		  position:absolute;
+		  margin: 720px 0px 0 10px;
+		  width:230px;
+		  height:590px;
+		  border:solid 1px #CCCCCC;
+		  border-radius:5px;
+		  background:rgba(204, 204, 204, 0.3);
+		  }
+		  
+.rekviz { float:left;
+		  display:inline-block;
+		  position:absolute;
+		  margin: 20px 0px 0 10px;
+		  width:230px;
+		  height:590px;
+		  border:solid 1px #CCCCCC;
+		  border-radius:5px;
+		  background:rgba(204, 204, 204, 0.3);
+		  }
+	
+			
+/*--------------------------end content------------------------------*/
+/* --------------- Navigation ------------------ */			 
+#nav { width:1180px;
+		height:70px;
+		border:solid 1px #CCCCCC;
+		border-radius:5px;
+		margin:15px 0 0 10px;
+		}
+	   
+#nav ul { font: 26px Arial, Helvetica, sans-serif;
+		  display:inline-table; 
+		  position:relative;
+		  margin:0px;		  
+		  }
+		  
+#nav li { float:left;
+		  list-style:none;		  
+		  text-align:center;
+		  width:130px;
+		  padding:15px 10px 0 20px;
+		  }
+		  
+#nav li a { text-decoration:none;
+			display:block;
+			color:#fff;
+			background:#708090;
+			background: radial-gradient(#e5e9f1, #708090);
+			border-radius:5px;
+			padding: 5px 0;
+			width:100%;		
+						}
+
+			
+#nav li a:hover { color:#fff;
+				  background:#708090;
+				  }
+				  
+#nav ul ul { display:none;
+			 position:absolute;
+			 top:100%;
+			 }
+			 
+#nav ul ul li { float:none;
+				position:relative;
+				}
+				
+#nav ul li:hover> ul { display:block;}
+
+.home { width:250px;
+		height:40px;
+		background:url(image/texture1.png);
+		border:solid 1px #CCCCCC;
+		border-radius:5px;
+		font-size:28px;}
+		
+.gallery { width:250px;
+		height:40px;
+		background:url(image/texture1.png);
+		border:solid 1px #CCCCCC;
+		border-radius:5px;
+		font-size:28px;}
+		
+.kniga { width:250px;
+		height:40px;
+		background:url(image/texture1.png);
+		border:solid 1px #CCCCCC;
+		border-radius:5px;
+		font-size:28px;}
+		
+.contact { width:260px;
+		height:30px;
+		background:#708090;
+		border:solid 1px #CCCCCC;
+		border-radius:5px;
+		font-size:20px;
+		color:#fff;	
+		}
+		
+#nav a { display:block;
+		 color:#000;
+		 }
+		
+#nav ul { list-style: none outside none;
+           		text-align: left;}
+		  
+#nav ul li { display:inline-block;
+			 margin:0 5px;}
+			 
+#nav a:hover {outline: medium none; color:#fff;}
+#nav li:visited { color:#fff;}		
+/* --------------- End Navigation -------------- */
+
+	
+#footer { width:1200px;
+			height:100px;
+			border:solid 1px #CCCCCC;
+			border-radius:5px;
+			margin:0 auto;
+			bottom:0px;
+			background:url(image/texture_footer.png);
+			}
+			
+#counter { float: right;
+			margin:-50px 20px 0 0;
+			display:inline-block;}
+
+			
+			
+/*slider*/
+#slider-wrap{ /* Оболочка слайдера и кнопок */
+    width:660px; 
+    }
+#slider{ /* Оболочка слайдера */
+    width:880px;
+    height:560px;
+    overflow: hidden;
+    border:#eee solid 10px;
+    position:relative;}
+.slide{ /* Слайд */
+    width:100%;
+    height:100%;
+    }
+.sli-links{ /* Кнопки смены слайдов */
+    margin-top:10px;
+    text-align:center;}
+.sli-links .control-slide{
+    margin:2px;
+    display:inline-block;
+    width:16px;
+    height:16px;
+    overflow:hidden;
+    text-indent:-9999px;
+    background:url(radioBg.png) center bottom no-repeat;}
+.sli-links .control-slide:hover{
+    cursor:pointer;
+    background-position:center center;}
+.sli-links .control-slide.active{
+    background-position:center top;}
+#prewbutton, #nextbutton{ /* Ссылка "Следующий" и "Педыдущий" */
+    display:block;
+    width:15px;
+    height:100%;
+    position:absolute;
+    top:0;
+    overflow:hidden;
+    text-indent:-999px;
+    background:url(arrowBg.png) left center no-repeat;
+    opacity:0.8;
+    z-index:3;
+    outline:none !important;}
+#prewbutton{left:10px;}
+#nextbutton{
+    right:10px;
+    background:url(arrowBg.png) right center no-repeat;}
+#prewbutton:hover, #nextbutton:hover{
+    opacity:1;}
+	
+/*end slider*/
+			 
+.top_row { float:right; margin:0 5px 2px 0;}

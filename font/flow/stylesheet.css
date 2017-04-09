@@ -1,0 +1,11 @@
+﻿/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+
+
+
+
+@font-face {font-family:"COTILLIO";
+		    src:url("font/COTILLIO/COTILLIO.eot?") format("eot"),
+			url("font/COTILLIO/COTILLIO.woff") format("woff"),
+			url("font/COTILLIO/COTILLIO.ttf") format("truetype"),
+			url("font/COTILLIO/COTILLIO.svg#COTILLIO") format("svg");
+			}
