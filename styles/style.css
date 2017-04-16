@@ -1,31 +1,49 @@
-body {margin: 0;
-		padding: 0;
-	background: #000;}
-
-
-.wrapper {display: flex;
-			display: -webkit-box;
-			display: -webkit-flex;
-			display: -ms-flexbox;
-			max-width: 1360px;
-			background-image: url("../image/anna.jpg");
-			background-repeat: no-repeat;
-			height: 768px;
-			flex-direction: row-reverse;
-			align-items: flex-start;
-		}
-
-.content {
+body
+{
+	margin: 0;
+	padding: 0;
+	/*background: #000;*/
+}
+.wrapper
+{
+	max-width: 1360px;
+	background: #000 url("../image/anna.jpg") no-repeat;
+	height: 768px;
+}
+/*BLOCK HEADER*/
+.header
+{
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	flex-direction: row-reverse;
+	align-items: flex-start;
+}
+/*BLOCK MENU*/
+.menu
+{
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px; 
 	margin-top: 1%;
 	background-color: rgba(255,255,255, 0.2);
 }
+.menu a
+{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+}
+.menu li
+{
+	list-style-type: none;
+}
+.menu ul li
+{
+	margin:10px 30px 0 0;
+	padding: 8px; 
+	display: inline;
+}
+/*BLOCK CONTENT*/
 
-.content a {text-decoration: none;
-			color: #ffffff;
-			font-size: 20px;}
-.content li {list-style-type: none;}
-.content ul li {margin:10px 30px 0 0;
-				padding: 8px; 
-				display: inline;}
+/*BLOCK FOOTER*/
