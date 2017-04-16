@@ -8,7 +8,7 @@ body {margin: 0;
 			display: -webkit-flex;
 			display: -ms-flexbox;
 			max-width: 1360px;
-			background-image: url(image/anna.jpg);
+			background-image: url("../image/anna.jpg");
 			background-repeat: no-repeat;
 			height: 768px;
 			flex-direction: row-reverse;
