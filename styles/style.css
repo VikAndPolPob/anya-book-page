@@ -3,11 +3,23 @@ body
 	margin: 0;
 	padding: 0;
 }
-.wrapper
+
+li {
+    list-style-type: none;
+   }
+
+ p {color: #fff;
+ 	font-size: 20px;}
+
+ hr {color: #ffffff;}
+
+ h1, h2, h3, h4, h5, h6 {color: #ffffff;}
+
+ .wrapper
 {
 	max-width: 1360px;
 	background: #000 url("../image/anna.jpg") no-repeat;
-	height: 768px;
+	/*height: 2000px;*/
 }
 /*BLOCK HEADER*/
 .header
@@ -46,5 +58,25 @@ body
 	border-bottom-left-radius: 20px;
 }
 /*BLOCK CONTENT*/
+.content { 
+			display: flex;
+			justify-content: flex-end;					 
+		}
+
+	.book1 {display: flex;
+			justify-content: space-around;
+			height: auto;
+			border: solid 1px #FF00FF; 
+		}
+	.oda {  max-width: 30%;
+			height: auto;
+			display: flex;
+			justify-content: space-around;
+			border: solid 1px #FF00FF; }
+
+#contentBody {display: flex;
+			justify-content: space-around;}
+
+#loading {display:none;}
 
 /*BLOCK FOOTER*/
