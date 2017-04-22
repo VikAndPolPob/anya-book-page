@@ -58,12 +58,14 @@ li {
 	border-bottom-left-radius: 20px;
 }
 /*BLOCK CONTENT*/
-.content { 
-			display: flex;
-			justify-content: flex-end;					 
-		}
+.content
+{
+	height: 600px;
+	display: flex;
+	justify-content: flex-end;					 
+}
 
-	.book1 {display: flex;
+	/*.book1 {display: flex;
 			justify-content: space-around;
 			height: auto;
 			border: solid 1px #FF00FF; 
@@ -72,10 +74,12 @@ li {
 			height: auto;
 			display: flex;
 			justify-content: space-around;
-			border: solid 1px #FF00FF; }
+			border: solid 1px #FF00FF; }*/
 
-#contentBody {display: flex;
-			justify-content: space-around;}
+#contentBody
+{
+	flex-basis: 50%;
+}
 
 #loading {display:none;}
 
